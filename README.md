@@ -1,6 +1,6 @@
 # LetsDefend-SOC163-Certutil-Analysis
 Detailed analysis and investigation of SOC163 - Suspicious Certutil.exe Usage alert on LetsDefend.
-# LetsDefend: SOC163 - Suspicious Certutil.exe Usage (Write-Up)
+# LetsDefend: SOC163 - Suspicious Certutil.exe Usage 
 
 Hey everyone! In this write-up, I will walk you through my analysis of a Medium severity alert on LetsDefend involving a suspicious LOLBin activity on a production host. 
 
