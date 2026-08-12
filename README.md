@@ -36,7 +36,7 @@ I jumped into the **Endpoint Security** tab to check the terminal history of `Er
 
 ## 💡 Lessons Learned & Playbook Logic (My Thought Process)
 
-This case taught me a great lesson about how SOC platforms categorize activities. During the playbook phase, I was prompted to choose who performed the activity: **Malware** or **User**. 
+This case taught me a great lesson about how SOC platforms categorize activities. During the playbook phase, I was prompted to choose who performed the activity: **User**. 
 
 Initially, since these are malicious tools (Nmap, exploit suggester), it feels like a malware incident. However, looking at the terminal history, there is a live threat actor manually typing commands inside a compromised user session. Since it wasn't a self-replicating, automated piece of malware but rather an interactive hands-on-keyboard attack leveraging a user account, **"User"** was the correct playbook choice.
 
